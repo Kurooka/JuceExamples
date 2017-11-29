@@ -2,3 +2,5 @@ UndoTest/Builds/
 UndoTest/JuceLibraryCode/
 ValueTree/Builds/
 ValueTree/JuceLibraryCode/
+ValueTest/Builds/
+ValueTest/JuceLibraryCode/
