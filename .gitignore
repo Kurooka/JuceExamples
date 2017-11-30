@@ -8,3 +8,5 @@ CachedValueTest/Builds/
 CachedValueTest/JuceLibraryCode/
 ApplicationPropertiesTest/Builds/
 ApplicationPropertiesTest/JuceLibraryCode/
+JuceCoreTest/Builds/
+JuceCoreTest/JuceLibraryCode/
