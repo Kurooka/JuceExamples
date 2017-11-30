@@ -16,7 +16,7 @@
     This component lives inside our window, and this is where you should put all
     your controls and content.
 */
-class MainContentComponent   : public Component
+class MainContentComponent   : public Component , public Button::Listener
 {
 public:
     //==============================================================================
@@ -25,8 +25,12 @@ public:
 
     void paint (Graphics&) override;
     void resized() override;
+	void buttonClicked(Button* button) override;
 
 private:
+
+	juce::TextButton startButton;
+
     //==============================================================================
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (MainContentComponent)
 };
