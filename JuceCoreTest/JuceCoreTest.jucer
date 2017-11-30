@@ -8,6 +8,8 @@
     <GROUP id="{7DD1609E-0FA3-0B4D-F5B5-657CE53F800B}" name="Source">
       <FILE id="eMw6NM" name="containers_array.cpp" compile="1" resource="0"
             file="Source/containers_array.cpp"/>
+      <FILE id="sCWf83" name="containers_DefaultElementComparator.cpp" compile="1"
+            resource="0" file="Source/containers_DefaultElementComparator.cpp"/>
       <FILE id="Z9iRh9" name="containers_dynamic.cpp" compile="1" resource="0"
             file="Source/containers_dynamic.cpp"/>
       <FILE id="tSnshZ" name="Continor_Fifo.cpp" compile="1" resource="0"

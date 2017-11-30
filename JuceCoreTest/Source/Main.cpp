@@ -14,6 +14,7 @@
 extern void	AbstractFifo_test();
 extern void ArrayTemplateTest();
 extern void containers_dynamic_test();
+extern void DefaultElementComparator_test();
 
 /**/
 void	containers_test()
@@ -21,6 +22,7 @@ void	containers_test()
 	AbstractFifo_test();
 	ArrayTemplateTest();
 	containers_dynamic_test();
+	DefaultElementComparator_test();
 }
 
 

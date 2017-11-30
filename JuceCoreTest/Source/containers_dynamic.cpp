@@ -56,12 +56,16 @@ void containers_dynamic_test()
 		}
 	*/
 
-	//クローン　deepコピー
+	//クローン(deepコピー) 返値の型に注意
 	juce::DynamicObject::Ptr obj2 = obj.clone();
 	obj.setProperty("a", 10);
 
 	//deepなので変更されていない
 	juce::Logger::outputDebugString(obj2->getProperty("a").toString());
+
+	//クリアとかもある
+	objbase->clear();
+
 
 	delete objbase;
 }
