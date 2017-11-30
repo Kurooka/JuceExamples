@@ -4,3 +4,6 @@ ValueTree/Builds/
 ValueTree/JuceLibraryCode/
 ValueTest/Builds/
 ValueTest/JuceLibraryCode/
+CachedValueTest/Builds/
+CachedValueTest/JuceLibraryCode/AppConfig.h
+CachedValueTest/JuceLibraryCode/
