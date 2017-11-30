@@ -49,6 +49,10 @@ int main (int argc, char* argv[])
 	undomanager.undo();
 	juce::Logger::outputDebugString(juce::String(ch_int)); //->5
 
+	juce::Logger::outputDebugString( ch_int.getPropertyID().toString() ); //->int
+	
+	juce::Logger::outputDebugString(v.toXmlString());
+
 
     return 0;
 }

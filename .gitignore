@@ -5,5 +5,6 @@ ValueTree/JuceLibraryCode/
 ValueTest/Builds/
 ValueTest/JuceLibraryCode/
 CachedValueTest/Builds/
-CachedValueTest/JuceLibraryCode/AppConfig.h
 CachedValueTest/JuceLibraryCode/
+ApplicationPropertiesTest/Builds/
+ApplicationPropertiesTest/JuceLibraryCode/
