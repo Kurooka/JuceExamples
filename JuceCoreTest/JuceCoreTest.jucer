@@ -10,8 +10,14 @@
             file="Source/containers_array.cpp"/>
       <FILE id="sCWf83" name="containers_DefaultElementComparator.cpp" compile="1"
             resource="0" file="Source/containers_DefaultElementComparator.cpp"/>
+      <FILE id="OTfYQn" name="containers_DefaultHashFunctions.cpp" compile="1"
+            resource="0" file="Source/containers_DefaultHashFunctions.cpp"/>
       <FILE id="Z9iRh9" name="containers_dynamic.cpp" compile="1" resource="0"
             file="Source/containers_dynamic.cpp"/>
+      <FILE id="blE2HG" name="containers_HashMap.cpp" compile="1" resource="0"
+            file="Source/containers_HashMap.cpp"/>
+      <FILE id="szKdzK" name="containers_LinkedListPointer.cpp" compile="1"
+            resource="0" file="Source/containers_LinkedListPointer.cpp"/>
       <FILE id="tSnshZ" name="Continor_Fifo.cpp" compile="1" resource="0"
             file="Source/Continor_Fifo.cpp"/>
       <FILE id="j2NeMG" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>

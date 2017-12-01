@@ -15,6 +15,9 @@ extern void	AbstractFifo_test();
 extern void ArrayTemplateTest();
 extern void containers_dynamic_test();
 extern void DefaultElementComparator_test();
+extern void core_containers_DefaultHashFunctions_test();
+extern void core_containers_HashMap_test();
+extern void core_containers_LinkedListPointer_test();
 
 /**/
 void	containers_test()
@@ -23,6 +26,10 @@ void	containers_test()
 	ArrayTemplateTest();
 	containers_dynamic_test();
 	DefaultElementComparator_test();
+	core_containers_DefaultHashFunctions_test();
+	core_containers_HashMap_test();
+	core_containers_LinkedListPointer_test();
+
 }
 
 
