@@ -11,13 +11,13 @@
 #include <memory>
 
 /*
-���b�N�t���[��FIFO���������邽�߂ɕK�v�ȃ��W�b�N���J�v�Z�������܂��B
+ƒƒbƒNƒtƒŠ[‚ÌFIFO‚ðŽÀ‘•‚·‚é‚½‚ß‚É•K—v‚ÈƒƒWƒbƒN‚ðƒJƒvƒZƒ‹‰»‚µ‚Ü‚·B
 FIFO = First In, First Out
 
-���̃N���X�́A�V���O�����[�_�A�V���O�����C�^FIFO���\�z����ۂɕK�v�ȃ��W�b�N���������܂��B
-���ۂɂ̓f�[�^���͕̂ێ�����܂��񂪁AFIFO�N���X�ł́A�ǂݎ��܂��͏������ݎ��̈ʒu�ƃX�e�[�^�X���Ǘ����邽�߂ɂ����̂����ꂩ���g�p�ł��܂��B
-������g�p����ɂ́AprepareToWrite()���Ăяo���āA��M�o�b�t�@�[�̊i�[�ꏊ�������̃o�b�t�@�[���Ŕ��ʂ��A
-prepareToRead()���Ăяo���āA���̑��M�u���b�N�����ǂݎ�邩�𒲂ׂ邱�Ƃ��ł��܂��B
+‚±‚ÌƒNƒ‰ƒX‚ÍAƒVƒ“ƒOƒ‹ƒŠ[ƒ_AƒVƒ“ƒOƒ‹ƒ‰ƒCƒ^FIFO‚ð\’z‚·‚éÛ‚É•K—v‚ÈƒƒWƒbƒN‚ðˆ—‚µ‚Ü‚·B
+ŽÀÛ‚É‚Íƒf[ƒ^Ž©‘Ì‚Í•ÛŽ‚³‚ê‚Ü‚¹‚ñ‚ªAFIFOƒNƒ‰ƒX‚Å‚ÍA“Ç‚ÝŽæ‚è‚Ü‚½‚Í‘‚«ž‚ÝŽž‚ÌˆÊ’u‚ÆƒXƒe[ƒ^ƒX‚ðŠÇ—‚·‚é‚½‚ß‚É‚±‚ê‚ç‚Ì‚¢‚¸‚ê‚©‚ðŽg—p‚Å‚«‚Ü‚·B
+‚±‚ê‚ðŽg—p‚·‚é‚É‚ÍAprepareToWrite()‚ðŒÄ‚Ño‚µ‚ÄAŽóMƒoƒbƒtƒ@[‚ÌŠi”[êŠ‚ðŽ©•ª‚Ìƒoƒbƒtƒ@[“à‚Å”»•Ê‚µA
+prepareToRead()‚ðŒÄ‚Ño‚µ‚ÄAŽŸ‚Ì‘—MƒuƒƒbƒN‚ð‚¢‚Â“Ç‚ÝŽæ‚é‚©‚ð’²‚×‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·B
 */
 class MyFifo
 {
